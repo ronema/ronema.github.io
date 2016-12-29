@@ -1,0 +1,72 @@
+*{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+body{
+	margin: 0px;
+	background: url("http://ww4.sinaimg.cn/mw1024/0065KdnEjw1fb1qiyxzqkj31hc0zk4qp.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+/*全局样式*/
+nav{
+	width: auto;
+	height: 60px;
+	background-color:#363c46;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	padding-left: 10%;
+	box-shadow: 1px 1px 3px black;
+}
+nav tr td{
+	padding-left: 20px;
+}
+nav tr td a{
+	color: whitesmoke;
+}
+nav img{
+	width: 45px;
+	height: 45px;
+	padding-top: 3px;
+	border: 20px solid red;
+}
+/*导航样式设置*/
+/* 底部区域样式 */
+#footer{
+	width: 100%;
+	height: 120px;
+	background-color: #1B1F21;
+	text-align: center;
+	margin-top: 60px;
+	padding-top: 10px;
+	color: gray;
+}
+#backtop{
+	margin-top: 40px;
+	margin-left: 80%;
+	width: 70px;
+	height: 20px;
+	border-radius: 6px;
+	background-color: #4C5769;
+	box-shadow: 2px 2px 3px black;
+	text-align: center;
+	padding-bottom: 3px;
+}
+#backtop #back{ 
+	 color: white;
+	 padding: 0px;
+}
+#backtop #back:hover{
+	color: #00FFF7;
+}
+
+#footer a{
+	color: #414349;
+}
+#footer a:hover{
+	color: #00FFF7;
+}
